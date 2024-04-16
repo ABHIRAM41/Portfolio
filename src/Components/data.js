@@ -8,6 +8,7 @@ import udhbav2022 from "../assets/udhbav2022.png";
 import employee from "../assets/livewebsites/employee.png"
 import foodtruckdemo from "../assets/livewebsites/foodtruckdemo.png"
 import matching from "../assets/livewebsites/matching.png";
+import weather from "../assets/livewebsites/weather.png";
 
 //project
 import Detecting from "../assets/projectsimg/Detecting.png";
@@ -137,5 +138,11 @@ export const liveWebsite = [
     img: employee,
     Link: "https://employee-log.netlify.app",
     github: "https://github.com/ABHIRAM41/EmployeeLog-FrontEnd-",
+  },
+  {
+    name: "Weather Report",
+    img: weather,
+    Link: "https://a-weather-report.netlify.app/",
+    github: "https://github.com/ABHIRAM41/Weather-Report",
   },
 ];
