@@ -38,7 +38,7 @@ const About = ({ id }) => {
             <Typewriter
               options={{
                 strings: [
-                  "Ethusiastic Dev ",
+                  "Enthusiastic Dev",
                   "Competitive programmer",
                   "Full Stack Developer",
                   "Problem solver",
