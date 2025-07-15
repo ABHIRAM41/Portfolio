@@ -18,10 +18,10 @@ function App() {
       <Box>
         <NavBar />
         <About id="top" />
-        <Skills />
+        {/* <Skills />
         <ProjectN id="Projects" />
-        <Projects id="LProjects" />
-        <Achievements id="achievements" />
+        <Projects id="LProjects" />*/}
+        {/* <Achievements id="achievements" />  */}
         <Contact id="contact" />
         <Footer />
       </Box>

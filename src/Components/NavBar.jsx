@@ -99,7 +99,7 @@ const NavBar = () => {
         </Link>
         <Box display={{ base: "none", md: "inline" }}>
           <Box display={"flex"} gap={"20px"} mr={"20px"} alignItems="center">
-            <Link activeClass="active" smooth spy to="Projects">
+            {/* <Link activeClass="active" smooth spy to="Projects">
               <Text cursor={"pointer"}>Projects</Text>
             </Link>
             <Text cursor={"pointer"}>
@@ -111,7 +111,7 @@ const NavBar = () => {
               <Link activeClass="active" smooth spy to="achievements">
                 Achievements
               </Link>
-            </Text>
+            </Text> */}
             <Text cursor={"pointer"}>
               <Link activeClass="active" smooth spy to="contact">
                 Contact
@@ -170,7 +170,7 @@ const NavBar = () => {
         alignItems={"center"}
         gap={"10px"}
       >
-        <Link activeClass="active" smooth spy to="Projects" onClick={handleBar}>
+        {/* <Link activeClass="active" smooth spy to="Projects" onClick={handleBar}>
           <Text cursor={"pointer"}>Projects</Text>
         </Link>
         <Link
@@ -190,7 +190,7 @@ const NavBar = () => {
           onClick={handleBar}
         >
           <Text cursor={"pointer"}>Achievements</Text>
-        </Link>
+        </Link> */}
         <Link activeClass="active" smooth spy to="contact" onClick={handleBar}>
           <Text cursor={"pointer"}>Contact</Text>
         </Link>
