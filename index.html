@@ -1,21 +1,192 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="J Abhiram Reddy">
-    <link rel="icon" type="image/svg+xml" href="/src/assets/pfimg.png" id="hi" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      .body{
-    background-color: black;
-}
 
+    <!-- =============================================
+         PRIMARY SEO META TAGS
+         ============================================= -->
+    <title>J Abhiram Reddy | Software Development Engineer</title>
+    <meta name="description" content="J Abhiram Reddy — Software Development Engineer (SDE) with 2.5+ years building production systems. Expert in TypeScript, Next.js, React, Node.js, Python, AWS (ECS, S3, CloudFront), Redis, MongoDB, and HIPAA-compliant distributed architectures." />
+    <meta name="author" content="J Abhiram Reddy" />
+    <meta name="keywords" content="J Abhiram Reddy, Software Engineer, SDE, Full Stack Developer, Next.js, React, TypeScript, Node.js, Python, AWS, Redis, MongoDB, PostgreSQL, Responsive Web Design, Docker, HIPAA, Hyderabad, India, Portfolio" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="theme-color" content="#6366f1" />
+    <meta name="color-scheme" content="dark" />
+
+    <!-- Canonical URL — update to your live domain when deployed -->
+    <link rel="canonical" href="https://jabhiramreddy.dev/" />
+
+    <!-- =============================================
+         OPEN GRAPH (Facebook, LinkedIn, WhatsApp)
+         ============================================= -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="J Abhiram Reddy | Portfolio" />
+    <meta property="og:title" content="J Abhiram Reddy | Software Development Engineer" />
+    <meta property="og:description" content="2.5+ years building and operating production systems. Inaugural engineer at a healthcare-data startup. Next.js · React · TypeScript · Node.js · AWS · Python · Distributed Systems." />
+    <meta property="og:url" content="https://jabhiramreddy.dev/" />
+    <meta property="og:locale" content="en_US" />
+    <!-- Replace with a real OG image (1200×630) when available -->
+    <meta property="og:image" content="https://jabhiramreddy.dev/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="J Abhiram Reddy — Software Development Engineer Portfolio" />
+
+    <!-- =============================================
+         TWITTER / X CARD
+         ============================================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@jabhiramrrun3" />
+    <meta name="twitter:creator" content="@jabhiramrrun3" />
+    <meta name="twitter:title" content="J Abhiram Reddy | Software Development Engineer" />
+    <meta name="twitter:description" content="2.5+ years building and operating production systems. Next.js · React · TypeScript · Node.js · AWS · Python." />
+    <meta name="twitter:image" content="https://jabhiramreddy.dev/og-image.png" />
+    <meta name="twitter:image:alt" content="J Abhiram Reddy Portfolio" />
+
+    <!-- =============================================
+         PWA / APP MANIFEST
+         ============================================= -->
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- =============================================
+         FAVICON
+         ============================================= -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/assets/pfimg.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/pfimg.png" />
+    <link rel="shortcut icon" href="/src/assets/pfimg.png" />
+
+    <!-- =============================================
+         GOOGLE FONTS — Preconnect first, then load
+         ============================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- =============================================
+         JSON-LD STRUCTURED DATA (Schema.org)
+         Google uses this to understand who you are
+         and surface rich results in search.
+         ============================================= -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "J Abhiram Reddy",
+      "alternateName": "Abhiram Reddy",
+      "url": "https://jabhiramreddy.dev/",
+      "image": "https://jabhiramreddy.dev/og-image.png",
+      "email": "jabhiramreddy.work@gmail.com",
+      "telephone": "+91-9390712822",
+      "jobTitle": "Software Development Engineer",
+      "description": "Software Development Engineer with 2.5+ years building and operating production systems. Inaugural engineer at a healthcare-data startup, owning Next.js/React web applications, backend APIs, AWS infrastructure, and HIPAA-compliant data pipelines.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
+        "addressCountry": "IN"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Vectorsoft"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Vidya Jyothi Institute of Technology",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Hyderabad",
+          "addressCountry": "IN"
+        }
+      },
+      "knowsAbout": [
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "React",
+        "Server-Side Rendering (SSR)",
+        "Static Site Generation (SSG)",
+        "Core Web Vitals",
+        "Responsive Web Design",
+        "Python",
+        "Node.js",
+        "AWS",
+        "Redis",
+        "MongoDB",
+        "PostgreSQL",
+        "Docker",
+        "Microservices",
+        "REST APIs",
+        "WebSockets",
+        "HL7 FHIR",
+        "HIPAA Compliance",
+        "Distributed Systems"
+      ],
+      "sameAs": [
+        "https://linkedin.com/in/j-abhiram-reddy",
+        "https://github.com/jabhiramreddy-code",
+        "https://leetcode.com/J_Abhiram_reddy/",
+        "https://twitter.com/jabhiramrrun3"
+      ]
+    }
+    </script>
+
+    <!-- WebSite schema for sitelinks search -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "J Abhiram Reddy | Portfolio",
+      "url": "https://jabhiramreddy.dev/",
+      "description": "Portfolio of J Abhiram Reddy, Software Development Engineer specializing in backend systems, AWS, and distributed architecture.",
+      "author": {
+        "@type": "Person",
+        "name": "J Abhiram Reddy"
+      }
+    }
+    </script>
+
+    <!-- =============================================
+         CRITICAL INLINE STYLES (prevent FOUC)
+         ============================================= -->
+    <style>
+      *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+      html { background-color: #0a0e1a; scroll-behavior: smooth; }
+      body {
+        background-color: #0a0e1a;
+        color: #e8eaf0;
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      #root { min-height: 100vh; }
     </style>
-    <title>J Abhiram Reddy's Portfolio</title>
   </head>
-  <body class="body">
+  <body>
+    <!-- Semantic no-JS fallback for search engines -->
+    <noscript>
+      <div style="padding:2rem;text-align:center;background:#0a0e1a;color:#e8eaf0;font-family:sans-serif;">
+        <h1>J Abhiram Reddy — Software Development Engineer</h1>
+        <p>Please enable JavaScript to view the full portfolio.</p>
+        <p>
+          <a href="https://linkedin.com/in/j-abhiram-reddy" style="color:#6c63ff;">LinkedIn</a> ·
+          <a href="https://github.com/jabhiramreddy-code" style="color:#6c63ff;">GitHub</a> ·
+          <a href="mailto:jabhiramreddy.work@gmail.com" style="color:#6c63ff;">Email</a>
+        </p>
+      </div>
+    </noscript>
+
     <div id="root"></div>
-    
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
