@@ -1,0 +1,137 @@
+%-------------------------
+% Resume in Latex
+% Author : J Abhiram Reddy
+% Based on: https://github.com/jakegut/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% ATS-parsable output
+\pdfgentounicode=1
+
+%----------CUSTOM COMMANDS----------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=\raisebox{0.15ex}{\tiny$\bullet$}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape J Abhiram Reddy} \\ \vspace{2pt}
+    \small Hyderabad, Telangana, India $|$ +91-9390712822 $|$ \href{mailto:jabhiramreddy.work@gmail.com}{\underline{jabhiramreddy.work@gmail.com}} \\ \vspace{2pt}
+    \href{https://linkedin.com/in/j-abhiram-reddy}{\underline{LinkedIn}} $|$ \href{https://github.com/jabhiramreddy-code}{\underline{GitHub}} $|$ \href{https://leetcode.com/J_Abhiram_reddy/}{\underline{LeetCode}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+Software Development Engineer with 2.5+ years building and operating production systems. Inaugural engineer at a healthcare-data startup, owning Next.js/React responsive web applications, backend APIs, AWS cloud infrastructure, and HIPAA-compliant data pipelines end to end.
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: TypeScript, JavaScript, Python, SQL} \\ [2pt]
+     \textbf{Frontend \& UI}{: Next.js (SSR / SSG), React, Responsive Web Design, Core Web Vitals, HTML5 / CSS3, State Management} \\[2pt]
+     \textbf{Backend \& Frameworks}{: Node.js, Elysia (Bun), Express.js, FastAPI, Flask} \\[2pt]
+     \textbf{Databases \& Caching}{: PostgreSQL, MongoDB, Redis, MySQL, DynamoDB} \\[2pt]
+     \textbf{Cloud \& DevOps}{: AWS (ECS, ALB, EC2, S3, CloudFront, Route 53), SST (IaC), Docker, CI/CD, Linux} \\[2pt]
+     \textbf{Architecture \& Security}{: REST APIs, WebSockets, Microservices, Event-Driven Architecture, HL7 FHIR, HIPAA}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Development Engineer}{Feb. 2024 -- Present}
+      {Vectorsoft \textnormal{\footnotesize}}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Inaugural engineer — owned end-to-end software architecture, responsive frontend applications, backend APIs, cloud setup, and release engineering from prototype to production.}
+        \resumeItem{Architected and shipped the responsive, high-performance customer-facing web application in \textbf{Next.js (SSR / SSG)} and \textbf{React}, optimizing Core Web Vitals and SEO while integrating via REST APIs and WebSockets.}
+        \resumeItem{Designed a \textbf{multi-tenant} microservices architecture with asynchronous, event-driven message queues to guarantee data consistency across services.}
+        \resumeItem{Built \textbf{HL7 FHIR} data ingestion pipelines on \textbf{AWS HealthLake}, centralizing patient records across provider systems to enable real-time population-health analytics.}
+        \resumeItem{Architected the platform to meet \textbf{HIPAA} compliance: AES-256 encryption in transit and at rest, automated audit logging, PHI de-identification, and RBAC with MFA via Auth0/Okta.}
+        \resumeItem{Engineered a \textbf{Redis} cache-aside layer for session metadata and hot lookups, cutting primary database load by \textbf{50\%} and holding API latency under \textbf{100ms} through peak traffic.}
+        \resumeItem{Built and operate the \textbf{AWS} environment (ECS, ALB, EC2, S3, CloudFront, Route 53) with \textbf{Docker} and \textbf{SST} as infrastructure-as-code with CI/CD at \textbf{99.9\%} uptime.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Freelance Software Engineer}{Sep. 2023 -- Jan. 2024}
+      {Self-Employed}{Remote}
+      \resumeItemListStart
+        \resumeItem{Built and deployed the backend for \textbf{openstudyai.com}, an AI-driven education platform, on a \textbf{Python/Flask} and AWS stack serving a global user base.}
+        \resumeItem{Implemented rate limiting and session caching with \textbf{Redis} to keep read-heavy traffic off the primary database.}
+        \resumeItem{Ran the product end to end, from wireframes to production deployment, and cut monthly AWS spend by \textbf{20\%} through right-sizing and resource cleanup.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vidya Jyothi Institute of Technology}{Hyderabad, India}
+      {Bachelor of Technology in Computer Science; \textbf{CGPA: 7.99}}{Aug. 2019 -- Aug. 2023}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+  \begin{itemize}[leftmargin=0.3in, label=\raisebox{0.15ex}{\tiny$\bullet$}]
+    \resumeItem{Ranked \textbf{1st of 400+ participants} in the college-wide CodeKaze coding competition (2023).}
+    \resumeItem{Sustained a 200-day problem-solving streak on \textbf{LeetCode}.}
+  \end{itemize}\vspace{-5pt}
+
+\end{document}

@@ -1,0 +1,18 @@
+# J Abhiram Reddy
+
+> Software Development Engineer with 2.5+ years building and operating production systems, healthcare data pipelines, and AWS cloud architecture.
+
+## Primary Links
+- [Portfolio Website](https://jabhiramreddy.dev/): Main Developer Portfolio & Work
+- [PDF Resume](https://jabhiramreddy.dev/J%20Abhiram%20Reddy%20Resume.pdf): Full Resume PDF Document
+- [LinkedIn Profile](https://linkedin.com/in/j-abhiram-reddy): Professional Work & Connections
+- [GitHub Profile](https://github.com/jabhiramreddy-code): Open Source Code Repositories
+- [LeetCode Profile](https://leetcode.com/J_Abhiram_reddy/): Competitive Programming & Data Structures
+- [Twitter / X Profile](https://twitter.com/jabhiramrrun3): Software Engineering Posts & Updates
+
+## Core Technical Stack
+- Languages: TypeScript, JavaScript, Python, Node.js
+- Frontend: React, Next.js, HTML5, CSS3, Vite
+- Backend & Cloud: AWS (ECS, S3, CloudFront), Docker, REST APIs, Microservices
+- Databases & Caching: PostgreSQL, MongoDB, Redis
+- Compliance & Standards: HIPAA, HL7 FHIR

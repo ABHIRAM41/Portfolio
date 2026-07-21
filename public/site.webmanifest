@@ -1,0 +1,26 @@
+{
+  "name": "J Abhiram Reddy | Portfolio",
+  "short_name": "Abhiram.dev",
+  "description": "Portfolio of J Abhiram Reddy — Software Development Engineer specializing in TypeScript, Node.js, Python, AWS, and distributed systems.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#6c63ff",
+  "lang": "en",
+  "orientation": "portrait-primary",
+  "categories": ["portfolio", "developer", "software engineering"],
+  "icons": [
+    {
+      "src": "/src/assets/pfimg.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/src/assets/pfimg.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
