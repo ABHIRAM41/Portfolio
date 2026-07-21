@@ -5,6 +5,8 @@ import { IoMdDownload } from "react-icons/io";
 import { IoMenu, IoClose } from "react-icons/io5";
 import Button from "../ui/Button";
 
+import Logo from "../ui/Logo";
+
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [resumeOpen, setResumeOpen] = useState(false);
@@ -79,20 +81,10 @@ const NavBar = () => {
           {/* Logo */}
           <button
             onClick={() => scrollTo("hero")}
-            style={{
-              fontFamily: "var(--font-heading)",
-              fontWeight: 800,
-              fontSize: "1.2rem",
-              background: "linear-gradient(135deg, var(--accent-primary), var(--accent-secondary))",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-              cursor: "pointer",
-              letterSpacing: "-0.02em",
-            }}
+            style={{ background: "none", border: "none", cursor: "pointer", padding: 0 }}
             aria-label="Scroll to top"
           >
-            {personalInfo.shortName}.dev
+            <Logo size={34} showText={true} />
           </button>
 
           {/* Desktop Nav Links */}

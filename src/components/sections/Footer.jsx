@@ -2,6 +2,7 @@ import React from "react";
 import { personalInfo, socialLinks } from "../../constants/data";
 import IconLink from "../ui/IconLink";
 import { IoArrowUp } from "react-icons/io5";
+import Logo from "../ui/Logo";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -32,19 +33,8 @@ const Footer = () => {
       >
         {/* Left — Name + role + status */}
         <div>
-          <div
-            className="font-heading"
-            style={{
-              fontWeight: 800,
-              fontSize: "1.2rem",
-              background: "linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, var(--accent-secondary) 100%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-              marginBottom: "6px",
-            }}
-          >
-            {personalInfo.name}
+          <div style={{ marginBottom: "8px" }}>
+            <Logo size={32} showText={true} />
           </div>
           <div style={{ color: "var(--text-muted)", fontSize: "0.82rem", display: "flex", alignItems: "center", gap: "8px" }}>
             <span>{personalInfo.role}</span>
