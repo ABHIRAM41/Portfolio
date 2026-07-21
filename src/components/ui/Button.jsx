@@ -105,9 +105,9 @@ const Button = ({
 
   const content = (
     <>
-      {icon && <span style={{ display: "flex" }}>{icon}</span>}
+      {icon && <span style={{ display: "flex" }} aria-hidden="true">{icon}</span>}
       {children}
-      {iconRight && <span style={{ display: "flex" }}>{iconRight}</span>}
+      {iconRight && <span style={{ display: "flex" }} aria-hidden="true">{iconRight}</span>}
     </>
   );
 

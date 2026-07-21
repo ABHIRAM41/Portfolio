@@ -46,7 +46,7 @@ function App() {
       {/* Critical — rendered immediately */}
       <NavBar />
 
-      <main>
+      <main role="main" id="main-content">
         {/* Hero is above the fold — eager load */}
         <Hero />
 

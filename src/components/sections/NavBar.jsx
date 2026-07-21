@@ -42,6 +42,8 @@ const NavBar = () => {
       />
 
       <nav
+        role="navigation"
+        aria-label="Main Navigation"
         style={{
           position: "fixed",
           top: 0,
@@ -165,7 +167,7 @@ const NavBar = () => {
               variant="secondary"
               size="sm"
               onClick={() => setResumeOpen(true)}
-              iconRight={<IoMdDownload size={14} />}
+              iconRight={<IoMdDownload size={14} aria-hidden="true" />}
               id="nav-resume-btn"
             >
               Resume
@@ -188,7 +190,7 @@ const NavBar = () => {
             className="nav-mobile-btn"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
           >
-            {menuOpen ? <IoClose size={22} /> : <IoMenu size={22} />}
+            {menuOpen ? <IoClose size={22} aria-hidden="true" /> : <IoMenu size={22} aria-hidden="true" />}
           </button>
         </div>
       </nav>
@@ -207,7 +209,9 @@ const NavBar = () => {
           justifyContent: "center",
           gap: "2.5rem",
           transform: menuOpen ? "translateX(0)" : "translateX(100%)",
-          transition: "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+          visibility: menuOpen ? "visible" : "hidden",
+          pointerEvents: menuOpen ? "auto" : "none",
+          transition: "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.3s ease",
         }}
         aria-hidden={!menuOpen}
       >
@@ -236,7 +240,7 @@ const NavBar = () => {
           variant="primary"
           size="md"
           onClick={() => { setResumeOpen(true); setMenuOpen(false); }}
-          iconRight={<IoMdDownload size={16} />}
+          iconRight={<IoMdDownload size={16} aria-hidden="true" />}
         >
           View Resume
         </Button>
@@ -284,7 +288,7 @@ const NavBar = () => {
                   size="sm"
                   href={personalInfo.resumePdf}
                   download="J Abhiram Reddy Resume.pdf"
-                  icon={<IoMdDownload size={14} />}
+                  icon={<IoMdDownload size={14} aria-hidden="true" />}
                 >
                   Download
                 </Button>
@@ -293,7 +297,7 @@ const NavBar = () => {
                   style={{ color: "var(--text-secondary)", background: "none", border: "none", cursor: "pointer", fontSize: "1.4rem" }}
                   aria-label="Close modal"
                 >
-                  <IoClose />
+                  <IoClose aria-hidden="true" />
                 </button>
               </div>
             </div>

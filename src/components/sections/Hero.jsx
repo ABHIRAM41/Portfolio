@@ -262,7 +262,7 @@ const Hero = () => {
             size="lg"
             href={personalInfo.resumePdf}
             download="J Abhiram Reddy Resume.pdf"
-            icon={<IoMdDownload size={18} />}
+            icon={<IoMdDownload size={18} aria-hidden="true" />}
             id="hero-download-cv"
           >
             Download CV
@@ -313,7 +313,7 @@ const Hero = () => {
         onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-muted)")}
         aria-label="Scroll to About section"
       >
-        <IoArrowDown size={20} />
+        <IoArrowDown size={20} aria-hidden="true" />
       </button>
 
       <style>{`

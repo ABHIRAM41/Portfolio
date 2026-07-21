@@ -37,7 +37,10 @@ const IconLink = ({ icon, url, label, size = 22, showLabel = false, color }) => 
       style={{
         display: "inline-flex",
         alignItems: "center",
-        gap: "6px",
+        justifyContent: "center",
+        minWidth: "44px",
+        minHeight: "44px",
+        padding: "6px",
         color: color || "var(--text-secondary)",
         transition: "color var(--transition-base), transform var(--transition-spring), filter var(--transition-base)",
         textDecoration: "none",
@@ -53,7 +56,7 @@ const IconLink = ({ icon, url, label, size = 22, showLabel = false, color }) => 
         e.currentTarget.style.filter = "none";
       }}
     >
-      <IconComp size={size} />
+      <IconComp size={size} aria-hidden="true" />
       {showLabel && (
         <span style={{ fontSize: "0.875rem", fontWeight: 500 }}>{label}</span>
       )}
