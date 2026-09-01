@@ -175,7 +175,7 @@ const ExperienceCard = ({ exp, isLast }) => {
 // Highlights key metrics, outcomes and roles in bullet points
 function highlightKeyMetrics(text) {
   return text.replace(
-    /\b(inaugural engineer|HIPAA compliance|99\.9% uptime|sub-100ms API latency|50%|65%|20%|zero-downtime releases|AES-256|HL7 FHIR)\b/gi,
+    /\b(founding engineer|RAG|70%|1-6 days|99\.9% uptime|under 100ms|50%|20%|AES-256|HL7 FHIR|SSO)\b/gi,
     '<strong style="color: var(--text-primary); font-weight: 600;">$1</strong>'
   );
 }

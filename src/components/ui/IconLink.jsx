@@ -38,6 +38,7 @@ const IconLink = ({ icon, url, label, size = 22, showLabel = false, color }) => 
         display: "inline-flex",
         alignItems: "center",
         justifyContent: "center",
+        gap: showLabel ? "0.4rem" : 0,
         minWidth: "44px",
         minHeight: "44px",
         padding: "6px",

@@ -11,10 +11,10 @@ const About = () => {
   const { ref: textRef } = useScrollReveal({ threshold: 0.15 });
 
   const stats = [
-    { value: "2.5+", label: "Years Experience" },
+    { value: "3", label: "Years Experience" },
     { value: "99.9%", label: "Uptime Delivered" },
     { value: "50%", label: "DB Load Reduced" },
-    { value: "100ms", label: "API Latency Target" },
+    { value: "70%", label: "Support Tickets Deflected" },
   ];
 
   return (
@@ -97,7 +97,7 @@ const About = () => {
                 letterSpacing: "0.04em",
               }}
             >
-              🚀 <span style={{ color: "var(--text-primary)", fontWeight: 600 }}>Backend & Systems</span> SDE
+              🚀 <span style={{ color: "var(--text-primary)", fontWeight: 600 }}>AI, Backend & Systems</span> SDE
             </div>
           </div>
 
@@ -147,13 +147,12 @@ const About = () => {
               marginBottom: "1.5rem",
             }}
           >
-            I joined{" "}
-            <span style={{ color: "var(--text-primary)", fontWeight: 500 }}>Vectorsoft</span>{" "}
-            as the{" "}
-            <span style={{ color: "var(--accent-primary)", fontWeight: 500 }}>first engineer</span>{" "}
-            — no playbook, no team to hand things off to. I built the API, wired up the AWS
-            infrastructure, and shipped HIPAA-compliant data pipelines to production, all from
-            scratch. That experience taught me to think in systems, not just features.
+            As a{" "}
+            <span style={{ color: "var(--accent-primary)", fontWeight: 500 }}>founding engineer</span>{" "}
+            on <span style={{ color: "var(--text-primary)", fontWeight: 500 }}>CurerTech</span>, I own AI
+            services, the Next.js/React frontend, backend APIs, and AWS infrastructure for a multi-tenant
+            healthcare platform. I build practical AI features - including RAG chatbots, voice assistance,
+            and document extraction - in a HIPAA-regulated environment.
           </p>
 
           <p
@@ -164,13 +163,9 @@ const About = () => {
               marginBottom: "2rem",
             }}
           >
-            I care about three things:{" "}
-            <span style={{ color: "var(--accent-secondary)", fontWeight: 500 }}>correctness</span>,{" "}
-            <span style={{ color: "var(--accent-primary)", fontWeight: 500 }}>observability</span>, and{" "}
-            <span style={{ color: "#f9a8d4", fontWeight: 500 }}>speed</span>. Software that silently
-            fails, can't be debugged, or crawls under load isn't finished — it's just waiting to cause
-            an incident. Outside of engineering, I compete in coding contests and grind LeetCode to keep
-            my problem-solving sharp.
+            I care about useful AI, dependable systems, and measurable outcomes. My work has deflected 70%
+            of support tickets, reduced onboarding from months to 1-6 days, and maintained 99.9% uptime.
+            Outside engineering, I keep my problem-solving sharp through coding contests and LeetCode.
           </p>
 
 
