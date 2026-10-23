@@ -11,10 +11,10 @@ const About = () => {
   const { ref: textRef } = useScrollReveal({ threshold: 0.15 });
 
   const stats = [
-    { value: "3", label: "Years Experience" },
-    { value: "99.9%", label: "Uptime Delivered" },
+    { value: "~3", label: "Years Experience" },
+    { value: "<100ms", label: "API Latency" },
     { value: "50%", label: "DB Load Reduced" },
-    { value: "70%", label: "Support Tickets Deflected" },
+    { value: "20%", label: "AWS Spend Reduced" },
   ];
 
   return (
@@ -97,7 +97,7 @@ const About = () => {
                 letterSpacing: "0.04em",
               }}
             >
-              🚀 <span style={{ color: "var(--text-primary)", fontWeight: 600 }}>AI, Backend & Systems</span> SDE
+              🚀 <span style={{ color: "var(--text-primary)", fontWeight: 600 }}>Full-Stack & AI Evaluation</span>
             </div>
           </div>
 
@@ -149,10 +149,10 @@ const About = () => {
           >
             As a{" "}
             <span style={{ color: "var(--accent-primary)", fontWeight: 500 }}>founding engineer</span>{" "}
-            on <span style={{ color: "var(--text-primary)", fontWeight: 500 }}>CurerTech</span>, I own AI
-            services, the Next.js/React frontend, backend APIs, and AWS infrastructure for a multi-tenant
-            healthcare platform. I build practical AI features - including RAG chatbots, voice assistance,
-            and document extraction - in a HIPAA-regulated environment.
+            at <span style={{ color: "var(--text-primary)", fontWeight: 500 }}>Vectorsoft</span>, I owned
+            the Next.js/React frontend, backend APIs, AWS infrastructure, and healthcare data pipelines
+            for a multi-tenant platform. I also migrated data from AWS HealthLake and DynamoDB to MongoDB
+            while preserving a FHIR-aligned data model.
           </p>
 
           <p
@@ -163,9 +163,10 @@ const About = () => {
               marginBottom: "2rem",
             }}
           >
-            I care about useful AI, dependable systems, and measurable outcomes. My work has deflected 70%
-            of support tickets, reduced onboarding from months to 1-6 days, and maintained 99.9% uptime.
-            Outside engineering, I keep my problem-solving sharp through coding contests and LeetCode.
+            I currently work with Outlier as an independent AI Trainer &amp; LLM Evaluator, checking
+            AI-generated code for correctness, instruction adherence, and edge cases. My engineering work
+            reduced database load by 50%, kept API latency under 100ms, and cut freelance AWS costs by 20%.
+            I also sharpen my problem-solving through coding contests and LeetCode.
           </p>
 
 

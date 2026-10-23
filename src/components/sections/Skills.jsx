@@ -81,7 +81,7 @@ const Skills = () => {
       <SectionTitle
         title="Skills & Technologies"
         accentWord="Technologies"
-        subtitle="My technical toolkit - built over 3 years of shipping AI-enabled production applications."
+        subtitle="My technical toolkit across production systems, full-stack development, and AI code evaluation."
       />
 
       <div

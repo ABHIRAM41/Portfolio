@@ -1,19 +1,24 @@
 # J Abhiram Reddy
 
-> Software Development Engineer with 3 years building production applications, including LLM chatbots, voice assistants, workflow automation, and HIPAA-regulated healthcare platforms.
+> Software Development Engineer with around 3 years building and operating production systems. Former founding engineer at Vectorsoft and current independent AI Trainer & LLM Evaluator at Outlier.
 
 ## Primary Links
 - [Portfolio Website](https://jabhiramreddy.dev/): Main Developer Portfolio & Work
-- [PDF Resume](https://jabhiramreddy.dev/J%20Abhiram%20Reddy%20Resume.pdf): Full Resume PDF Document
+- [PDF Resume](https://jabhiramreddy.dev/J_Abhiram_Reddy_Resume.pdf): Full Resume PDF Document
 - [LinkedIn Profile](https://linkedin.com/in/j-abhiram-reddy): Professional Work & Connections
 - [GitHub Profile](https://github.com/jabhiramreddy-code): Open Source Code Repositories
 - [LeetCode Profile](https://leetcode.com/J_Abhiram_reddy/): Competitive Programming & Data Structures
 - [Twitter / X Profile](https://twitter.com/jabhiramrrun3): Software Engineering Posts & Updates
 
 ## Core Technical Stack
-- AI & Generative AI: LLM applications, chatbots, ElevenLabs voice assistants, RAG, prompt engineering, embeddings, vector search, document data extraction
+- AI Code Evaluation: AI-generated code correctness, instruction adherence, edge-case handling, model response comparison, structured technical feedback
 - Languages: TypeScript, JavaScript, Python, SQL
-- Frontend: React, Next.js, HTML5, CSS3, Vite
+- Frontend: React, Next.js (SSR / SSG), responsive web design, Core Web Vitals, HTML5, CSS3, state management
 - Backend & Cloud: Node.js, FastAPI, Flask, Express.js, Elysia (Bun), AWS (ECS, ALB, EC2, S3, CloudFront, Route 53, HealthLake), Docker, SST, REST APIs, Microservices
 - Databases & Caching: PostgreSQL, MySQL, MongoDB, DynamoDB, Redis
-- Integration & Security: SSO (Auth0 / Okta), OAuth 2.0, JWT, RBAC, MFA, HIPAA, HL7 FHIR
+- Integration & Security: Auth0 / Okta, RBAC, MFA, TLS encryption in transit, AES-256 encryption at rest, audit logging, PHI de-identification, HIPAA, HL7 FHIR
+
+## Experience
+- Outlier | Independent Contractor: AI Trainer & LLM Evaluator - Coding, Jun 2026 - Present, Remote. Evaluate AI-generated code, compare model responses, and provide structured technical feedback.
+- Vectorsoft: Software Development Engineer, Feb 2024 - Aug 2026, Hyderabad. Founding engineer responsible for full-stack applications, multi-tenant microservices, AWS infrastructure, healthcare data pipelines, and migration from AWS HealthLake and DynamoDB to MongoDB with a FHIR-aligned data model. Reduced database load by 50% and held API latency under 100ms.
+- Self-Employed: Freelance Software Engineer, Sep 2023 - Jan 2024, Remote. Built the Python/Flask backend for openstudyai.com, implemented Redis rate limiting and session caching, and reduced monthly AWS spend by 20%.
