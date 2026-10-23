@@ -1,6 +1,6 @@
 {
-  "name": "J Abhiram Reddy | Portfolio",
-  "short_name": "Abhiram.dev",
+  "name": "J Abhiram Reddy",
+  "short_name": "Abhiram Reddy",
   "description": "Portfolio of J Abhiram Reddy — Software Development Engineer and AI Trainer & LLM Evaluator specializing in full-stack applications, healthcare data pipelines, and AWS infrastructure.",
   "start_url": "/",
   "display": "standalone",
@@ -11,10 +11,10 @@
   "categories": ["portfolio", "developer", "software engineering"],
   "icons": [
     {
-      "src": "/favicon.svg",
-      "sizes": "192x192 512x512",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }

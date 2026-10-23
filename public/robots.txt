@@ -1,5 +1,5 @@
 # robots.txt — J Abhiram Reddy Portfolio
-# https://jabhiramreddy.dev/robots.txt
+# https://j-abhiram-reddy-portfolio.netlify.app/robots.txt
 
 User-agent: *
 Allow: /
@@ -40,4 +40,4 @@ User-agent: anthropic-ai
 Disallow: /
 
 # Sitemap location
-Sitemap: https://jabhiramreddy.dev/sitemap.xml
+Sitemap: https://j-abhiram-reddy-portfolio.netlify.app/sitemap.xml

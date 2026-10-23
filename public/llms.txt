@@ -3,8 +3,8 @@
 > Software Development Engineer with around 3 years building and operating production systems. Former founding engineer at Vectorsoft and current independent AI Trainer & LLM Evaluator at Outlier.
 
 ## Primary Links
-- [Portfolio Website](https://jabhiramreddy.dev/): Main Developer Portfolio & Work
-- [PDF Resume](https://jabhiramreddy.dev/J_Abhiram_Reddy_Resume.pdf): Full Resume PDF Document
+- [Portfolio Website](https://j-abhiram-reddy-portfolio.netlify.app/): Main Developer Portfolio & Work
+- [PDF Resume](https://j-abhiram-reddy-portfolio.netlify.app/J_Abhiram_Reddy_Resume.pdf): Full Resume PDF Document
 - [LinkedIn Profile](https://linkedin.com/in/j-abhiram-reddy): Professional Work & Connections
 - [GitHub Profile](https://github.com/jabhiramreddy-code): Open Source Code Repositories
 - [LeetCode Profile](https://leetcode.com/J_Abhiram_reddy/): Competitive Programming & Data Structures

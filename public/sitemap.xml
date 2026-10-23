@@ -6,8 +6,8 @@
 
   <!-- Main portfolio page — update lastmod when you redeploy -->
   <url>
-    <loc>https://jabhiramreddy.dev/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <loc>https://j-abhiram-reddy-portfolio.netlify.app/</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
