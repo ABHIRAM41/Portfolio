@@ -12,7 +12,7 @@ export const personalInfo = {
   email: "jabhiramreddy.work@gmail.com",
   phone: "+91-9390712822",
   summary:
-    "Software Development Engineer with around 3 years of experience building and operating production systems. Founding engineer at a healthcare-data startup, owning Next.js/React web applications, backend APIs, AWS infrastructure, and healthcare data pipelines end to end. Currently evaluating AI-generated code at Outlier.",
+    "Software Development Engineer with around 3 years of experience building and operating production systems. Founding engineer at a healthcare-data startup, owning Next.js/React responsive web applications, backend APIs powering a multi-tenant platform built on a modular monolithic architecture, AWS cloud infrastructure, and healthcare data pipelines end to end.",
   typewriterRoles: [
     "Software Development Engineer",
     "AI Trainer & LLM Evaluator",
@@ -79,7 +79,7 @@ export const experience = [
     bullets: [
       "Founding engineer - owned end-to-end software architecture, frontend applications, backend APIs, AWS infrastructure, and production deployments.",
       "Architected and shipped the responsive, high-performance customer-facing web application in Next.js (SSR / SSG) and React, optimizing Core Web Vitals and SEO while integrating via REST APIs and WebSockets.",
-      "Designed a multi-tenant microservices architecture with asynchronous, event-driven message queues to support data consistency across services.",
+      "Architected and built the platform's multi-tenant backend using a modular monolithic architecture, powering REST APIs, WebSocket integrations, and healthcare data workflows.",
       "Designed and implemented the migration from AWS HealthLake and DynamoDB to MongoDB, reducing read/write latency while maintaining a FHIR-aligned data model to simplify future migrations to FHIR-based systems.",
       "Architected platform security to support HIPAA requirements: TLS encryption in transit, AES-256 encryption at rest, automated audit logging, PHI de-identification, and RBAC with MFA via Auth0/Okta.",
       "Engineered a Redis cache-aside layer for session metadata and hot lookups, cutting primary database load by 50% and holding API latency under 100ms through peak traffic.",
@@ -145,7 +145,7 @@ export const skillCategories = [
     id: "domain",
     label: "Architecture & Security",
     icon: "shield",
-    skills: ["REST APIs", "WebSockets", "Microservices", "Event-Driven Architecture", "Auth0 / Okta", "RBAC", "MFA", "TLS", "AES-256", "HL7 FHIR", "HIPAA"],
+    skills: ["REST APIs", "WebSockets", "Modular Monolithic Architecture", "Auth0 / Okta", "RBAC", "MFA", "Push Notifications", "HL7 FHIR", "HIPAA"],
   },
 ];
 

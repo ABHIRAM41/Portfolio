@@ -151,7 +151,8 @@ const About = () => {
             <span style={{ color: "var(--accent-primary)", fontWeight: 500 }}>founding engineer</span>{" "}
             at <span style={{ color: "var(--text-primary)", fontWeight: 500 }}>Vectorsoft</span>, I owned
             the Next.js/React frontend, backend APIs, AWS infrastructure, and healthcare data pipelines
-            for a multi-tenant platform. I also migrated data from AWS HealthLake and DynamoDB to MongoDB
+            for a multi-tenant platform built on a modular monolithic architecture. I also migrated data
+            from AWS HealthLake and DynamoDB to MongoDB
             while preserving a FHIR-aligned data model.
           </p>
 
